@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@font-face {
+    font-family: "Neue Machina";
+    src: url("../fonts/NeueMachina-Regular.ttf") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .NeueMachina-font {
+    font-family: "Neue Machina", sans-serif;
+  }
+  .plus-Jakarta-sans-font{
+    font-family: "Plus Jakarta Sans";
+  }
+  .raleway-font{
+    font-family: "Raleway";
+  }
+
+  .bg-img-bull{
+    background-image: url(/assets/images/png/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+ 
+
+
+  
+  /* ============================== */
+  .dropdown:hover .dropdown-content {
+      display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+  }
+  
+  /* ===================================================================== */
+
+
+  
+  .container {
+      max-width: 1140px !important;
+      padding-left: 12px !important;
+      padding-right: 12px !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+  }
+  
+
+  
+  /* ================================== hero section ======================================== */
+
+
+  
+  
+  @media (min-width:1440.99px) {
+
+  
+      .sec-1-blue-bg {
+          width: 73% !important;
+      }
+      
+  }
+
+
+
+
+
+  /* navbar */
+
+
+
+
+  
+/* timeline start */
+
+.bg-boxex-roadmap {
+    background-image: url(/assets/images/png/bg-boxex-roadmap.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.timeline {
+  position: relative;
+  max-width: 880.76px;
+  margin: 0 auto;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 100%;
+  background: var(--color-blue);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.parent-of-box-one {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.parent-of-box-one::after {
+  content: '';
+  position: absolute;
+  width: 53px;
+  height: 23px;
+  right: -10px;
+  background-image: url(../images/svg/dot-of-timeline-left.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -8px;
+  z-index: 2;
+
+}
+
+.parent-of-box-two {
+  padding-left: 65px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+  margin-top: -14px;
+}
+
+.parent-of-box-two::after {
+  content: '';
+  position: absolute;
+  width: 53px;
+  height: 23px;
+  background-image: url(../images/svg/dot-of-timeline-right.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: -5px;
+  z-index: 1;
+  margin-left: 21px;
+}
+
+
+
+.right::after {
+  left: -34px;
+  
+}
+
+/* timeline-end */
+/* footer */
+.footer-bg-img {
+  background-image: url(/assets/images/png/footer-bg-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* footer-end */
+
+@media(max-width:767.98px) {
+.bully{
+  transform: translateY(80px) ;
+}
+
+
+  /* timeline */
+  .timeline::after {
+      content: '';
+      position: absolute;
+      width: 2px;
+      height: 100%;
+      background: var(--color-blue);
+      top: 0;
+      bottom: 0;
+      left: 0;
+      margin-left: -3px;
+  }
+
+
+
+  .parent-of-box-two {
+      padding: 0 0 0 60px;
+      width: 100%;
+      margin-bottom: 22px;
+  }
+
+  .parent-of-box-one {
+      padding: 0 0 0 60px;
+      width: 100%;
+      margin-bottom: 35px;
+  }
+
+
+
+  
+
+  .parent-of-box-two::after {
+      left: -13px;
+      top: 14px;
+      margin-left: 0;
+  }
+
+  .parent-of-box-one::after {
+      left: -14px;
+      top: -5px;
+      background-image: url(../images/svg/dot-of-timeline-right.svg);
+  }
+  /* timeline-end */
+}
+
+
+
+@media(min-width:768px) {
+  
+ /* timeline start */
+
+    .parent-of-box-two {
+      padding-left: 50px;
+  }
+
+  /* timeline-end */
+
+
+}
+@media(min-width:840px) {
+  /* timeline */
+  .parent-of-box-two {
+      padding-left: 76px;
+  }
+  /* timeline-end */
+}
+
+@media(min-width:992px) {
+ /* timeline */
+  .parent-of-box-two {
+      padding-left: 65px;
+  }
+  /* timeline-end */
+
+  
+
+}

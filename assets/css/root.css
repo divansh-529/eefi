@@ -1,0 +1,112 @@
+
+:root {
+    /* font-size */
+    --font-xxsm: 14px;
+    --font-xsm: 12px;
+    --font-sm: 18px;
+    --font-md: 15px;
+    --font-lg: 20px;
+    --font-xl: 28px;
+    --font-2xl: 23px;
+    --font-3xl: 32px;
+
+    /* font-color */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-blue: #1643c3;
+    --box-bg: #1643c31a;
+    --border: #FFFFFF29;
+    --box-shadow: #FFFFFF42;
+}
+
+/* font-color */
+.color_white {
+    color: var(--color-white);
+}
+
+.color_black {
+    color: var(--color-black);
+}
+
+.color_blue {
+    color: var(--color-blue);
+}
+
+/* bg clr */
+.bg-color-white {
+    background-color: var(--color-white);
+}
+
+.bg_color_black {
+    background-color: var(--color-black);
+}
+
+/* font-size */
+.font_xxsm {
+    font-size: var(--font-xxsm);
+}
+
+.font_xsm {
+    font-size: var(--font-xsm);
+}
+
+.font_sm {
+    font-size: var(--font-sm);
+}
+ 
+.font_md {
+    font-size: var(--font-md);
+}
+
+.font_lg {
+    font-size: var(--font-lg);
+}
+
+.font_xl {
+    font-size: var(--font-xl);
+}
+
+.font_2xl {
+    font-size: var(--font-2xl);
+}
+
+.font_3xl {
+    font-size: var(--font-3xl);
+}
+
+@media(min-width:576px) {
+    :root {
+        --font-lg: 24px;
+        --font-xsm: 14px;
+        --font-xl: 35px;
+    }
+}
+
+@media(min-width:768px) {
+    :root {
+        --font-xsm: 16px;
+        --font-md: 20px;
+        --font-2xl: 42px;
+        --font-3xl: 50px;
+    }
+}
+
+@media(min-width:992px) {
+    :root {
+        --font-3xl: 65px;
+    }
+}
+
+@media(min-width:1200px) {
+    :root {
+        /* font-size */
+        --font-xxsm: 14px;
+        --font-xsm: 16px;
+        --font-sm: 18px;
+        --font-md: 20px;
+        --font-lg: 24px;
+        --font-xl: 46px;
+        --font-2xl: 52px;
+        --font-3xl: 85px;
+    }
+}
