@@ -40,25 +40,6 @@
       
   }
 
-  /* navbar */
-
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 30px;
-    width:  50px;
-    z-index: 99;
-    font-size: 18px;
-    border: none;
-    outline: none;
-    background-color: #ffffff;
-    color: blue;
-    cursor: pointer;
-    padding: 15px;
-    border-radius: 4px;
-  }
-  
   #myBtn:hover .ing-back-to-top{
     animation: shake 0.5s;
     animation-iteration-count: infinite;
@@ -77,43 +58,13 @@
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
 
-/* timeline start */
-
-.bg-boxex-roadmap {
-    background-image: url(/assets/images/webp/bg-boxex-roadmap.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.timeline {
-  position: relative;
-  max-width: 880.76px;
-  margin: 0 auto;
-}
-
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 2px;
-  height: 100%;
-  background: var(--color-blue);
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
 
 .parent-of-box-one {
   position: relative;
   background-color: inherit;
   width: 50%;
 }
-.bg-badal{
-  background-image: url(/assets/images/webp/badal-timeline.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
+
 .parent-of-box-one::after {
   content: '';
   position: absolute;
@@ -206,32 +157,6 @@
       left: -14px;
       top: -5px;
       background-image: url(../images/svg/dot-of-timeline-right.svg);
-  }
-  /* timeline-end */
-}
-
-@media(min-width:768px) {
-  
- /* timeline start */
-
-    .parent-of-box-two {
-      padding-left: 50px;
-  }
-
-  /* timeline-end */
-}
-@media(min-width:840px) {
-  /* timeline */
-  .parent-of-box-two {
-      padding-left: 76px;
-  }
-  /* timeline-end */
-}
-
-@media(min-width:992px) {
- /* timeline */
-  .parent-of-box-two {
-      padding-left: 65px;
   }
   /* timeline-end */
 }
