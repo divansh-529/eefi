@@ -22,24 +22,6 @@
     background-image: url(/);
   } 
 
-  .bg-img-bull{
-    background-image: url(/assets/images/png/bg.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-
-  /* ============================== */
-  .dropdown:hover .dropdown-content {
-      display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-      background-color: #3e8e41;
-  }
-  
-  /* ===================================================================== */
-  
   .container {
       max-width: 1140px !important;
       padding-left: 12px !important;
@@ -58,10 +40,7 @@
       
   }
 
-
-
   /* navbar */
-
 
   #myBtn {
     display: none;
@@ -101,7 +80,7 @@
 /* timeline start */
 
 .bg-boxex-roadmap {
-    background-image: url(/assets/images/png/bg-boxex-roadmap.webp);
+    background-image: url(/assets/images/webp/bg-boxex-roadmap.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -130,7 +109,7 @@
   width: 50%;
 }
 .bg-badal{
-  background-image: url(/assets/images/png/badal-timeline.webp);
+  background-image: url(/assets/images/webp/badal-timeline.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -180,7 +159,7 @@
 /* timeline-end */
 /* footer */
 .footer-bg-img {
-  background-image: url(/assets/images/png/footer-bg-img.webp);
+  background-image: url(/assets/images/webp/footer-bg-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
