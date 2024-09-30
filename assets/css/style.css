@@ -18,7 +18,7 @@
   }
 
   .bg-img-bull{
-    background-image: url(/assets/images/png/bg.png);
+    background-image: url(/assets/images/png/bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -78,7 +78,7 @@
 /* timeline start */
 
 .bg-boxex-roadmap {
-    background-image: url(/assets/images/png/bg-boxex-roadmap.png);
+    background-image: url(/assets/images/png/bg-boxex-roadmap.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -108,7 +108,7 @@
   width: 50%;
 }
 .bg-badal{
-  background-image: url(/assets/images/png/badal-timeline.png);
+  background-image: url(/assets/images/png/badal-timeline.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -160,7 +160,7 @@
 /* timeline-end */
 /* footer */
 .footer-bg-img {
-  background-image: url(/assets/images/png/footer-bg-img.png);
+  background-image: url(/assets/images/png/footer-bg-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
 }
