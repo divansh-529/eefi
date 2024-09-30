@@ -1,7 +1,11 @@
+// animation on scroll
 AOS.init({
     duration: 1500,
     once:true
 })
+// animation end
+
+// js navbar
 const menuicon = document.querySelector(".menubar");
 const menuList = document.querySelector(".menulist");
 const menubarFirst = document.querySelector(".menubarFirst");
@@ -17,6 +21,9 @@ menuicon.addEventListener("click", function () {
     menubarThird.classList.toggle("-rotate-[40deg]");
     body.classList.toggle("overflow-lg-hidden")
 })
+//js navbar complete
+
+//back to top
 
 // Get the button
 let mybutton = document.getElementById("myBtn");
@@ -37,3 +44,4 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+//back to top end
