@@ -20,15 +20,15 @@
 }
 
 /* font-color */
-.color_white {
+.color-white {
     color: var(--color-white);
 }
 
-.color_black {
+.color-black {
     color: var(--color-black);
 }
 
-.color_blue {
+.color-blue {
     color: var(--color-blue);
 }
 
@@ -37,40 +37,40 @@
     background-color: var(--color-white);
 }
 
-.bg_color_black {
+.bg-color-black {
     background-color: var(--color-black);
 }
 
 /* font-size */
-.font_xxsm {
+.font-xxsm {
     font-size: var(--font-xxsm);
 }
 
-.font_xsm {
+.font-xsm {
     font-size: var(--font-xsm);
 }
 
-.font_sm {
+.font-sm {
     font-size: var(--font-sm);
 }
  
-.font_md {
+.font-md {
     font-size: var(--font-md);
 }
 
-.font_lg {
+.font-lg {
     font-size: var(--font-lg);
 }
 
-.font_xl {
+.font-xl {
     font-size: var(--font-xl);
 }
 
-.font_2xl {
+.font-2xl {
     font-size: var(--font-2xl);
 }
 
-.font_3xl {
+.font-3xl {
     font-size: var(--font-3xl);
 }
 
