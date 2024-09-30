@@ -107,7 +107,12 @@
   background-color: inherit;
   width: 50%;
 }
-
+.bg-badal{
+  background-image: url(/assets/images/png/badal-timeline.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
 .parent-of-box-one::after {
   content: '';
   position: absolute;
